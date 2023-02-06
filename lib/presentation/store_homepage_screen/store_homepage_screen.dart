@@ -3,7 +3,6 @@ import 'controller/store_homepage_controller.dart';
 import 'models/store_homepage_item_model.dart';
 import 'package:flutter/material.dart';
 import 'package:ipala/core/app_export.dart';
-import 'package:ipala/presentation/homepage_page/homepage_page.dart';
 import 'package:ipala/widgets/app_bar/appbar_image.dart';
 import 'package:ipala/widgets/app_bar/custom_app_bar.dart';
 import 'package:ipala/widgets/custom_bottom_bar.dart';
@@ -88,7 +87,7 @@ class StoreHomepageScreen extends GetWidget<StoreHomepageController> {
                                                         shape: RoundedRectangleBorder(
                                                             borderRadius:
                                                                 BorderRadiusStyle
-                                                                    .roundedBorder2),
+                                                                    .roundedBorder4),
                                                         child: Container(
                                                             height:
                                                                 getVerticalSize(
@@ -106,7 +105,7 @@ class StoreHomepageScreen extends GetWidget<StoreHomepageController> {
                                                                 .copyWith(
                                                                     borderRadius:
                                                                         BorderRadiusStyle
-                                                                            .roundedBorder2),
+                                                                            .roundedBorder4),
                                                             child: Stack(
                                                                 children: [
                                                                   CustomImageView(
@@ -456,7 +455,7 @@ class StoreHomepageScreen extends GetWidget<StoreHomepageController> {
   String getCurrentRoute(BottomBarEnum type) {
     switch (type) {
       case BottomBarEnum.Home:
-        return AppRoutes.homepagePage;
+        return "/";
       case BottomBarEnum.Listing:
         return "/";
       case BottomBarEnum.Basket:
@@ -470,8 +469,6 @@ class StoreHomepageScreen extends GetWidget<StoreHomepageController> {
 
   Widget getCurrentPage(String currentRoute) {
     switch (currentRoute) {
-      case AppRoutes.homepagePage:
-        return HomepagePage();
       default:
         return DefaultWidget();
     }

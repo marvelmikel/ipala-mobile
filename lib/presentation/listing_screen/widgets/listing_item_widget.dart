@@ -109,7 +109,7 @@ class ListingItemWidget extends StatelessWidget {
                       bottom: 5,
                     ),
                     decoration: AppDecoration.fillDeeporange600.copyWith(
-                      borderRadius: BorderRadiusStyle.roundedBorder12,
+                      borderRadius: BorderRadiusStyle.circleBorder13,
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.end,

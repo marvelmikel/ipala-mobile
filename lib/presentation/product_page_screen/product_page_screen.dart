@@ -219,7 +219,7 @@ class ProductPageScreen extends GetWidget<ProductPageController> {
                                                 .copyWith(
                                                     borderRadius:
                                                         BorderRadiusStyle
-                                                            .roundedBorder12),
+                                                            .circleBorder13),
                                             child: Row(
                                                 mainAxisAlignment:
                                                     MainAxisAlignment.end,

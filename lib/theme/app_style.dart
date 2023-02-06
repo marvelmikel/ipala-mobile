@@ -11,15 +11,6 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle txtJosefinSansRomanRegular14WhiteA700 = TextStyle(
-    color: ColorConstant.whiteA700,
-    fontSize: getFontSize(
-      14,
-    ),
-    fontFamily: 'Josefin Sans',
-    fontWeight: FontWeight.w400,
-  );
-
   static TextStyle txtMontserratRomanBold28 = TextStyle(
     color: ColorConstant.black900Ab,
     fontSize: getFontSize(
@@ -69,15 +60,6 @@ class AppStyle {
     color: ColorConstant.deepOrange600,
     fontSize: getFontSize(
       12,
-    ),
-    fontFamily: 'Josefin Sans',
-    fontWeight: FontWeight.w400,
-  );
-
-  static TextStyle txtJosefinSansRomanRegular20 = TextStyle(
-    color: ColorConstant.black90099,
-    fontSize: getFontSize(
-      20,
     ),
     fontFamily: 'Josefin Sans',
     fontWeight: FontWeight.w400,
@@ -153,15 +135,6 @@ class AppStyle {
     ),
     fontFamily: 'Josefin Sans',
     fontWeight: FontWeight.w500,
-  );
-
-  static TextStyle txtJosefinSansRomanSemiBold12Deeporange600 = TextStyle(
-    color: ColorConstant.deepOrange600,
-    fontSize: getFontSize(
-      12,
-    ),
-    fontFamily: 'Josefin Sans',
-    fontWeight: FontWeight.w600,
   );
 
   static TextStyle txtJosefinSansRomanMedium12Black9006c = TextStyle(
@@ -281,15 +254,6 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle txtJosefinSansRomanSemiBold12 = TextStyle(
-    color: ColorConstant.black900E5,
-    fontSize: getFontSize(
-      12,
-    ),
-    fontFamily: 'Josefin Sans',
-    fontWeight: FontWeight.w600,
-  );
-
   static TextStyle txtMontserratRomanMedium14Gray100 = TextStyle(
     color: ColorConstant.gray100,
     fontSize: getFontSize(
@@ -315,15 +279,6 @@ class AppStyle {
     ),
     fontFamily: 'Josefin Sans',
     fontWeight: FontWeight.w500,
-  );
-
-  static TextStyle txtJosefinSansRomanSemiBold24WhiteA700 = TextStyle(
-    color: ColorConstant.whiteA700,
-    fontSize: getFontSize(
-      24,
-    ),
-    fontFamily: 'Josefin Sans',
-    fontWeight: FontWeight.w600,
   );
 
   static TextStyle txtJosefinSansRomanRegular12Black900a2 = TextStyle(

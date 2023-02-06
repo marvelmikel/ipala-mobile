@@ -3,7 +3,6 @@ import 'controller/notification_controller.dart';
 import 'models/notification_item_model.dart';
 import 'package:flutter/material.dart';
 import 'package:ipala/core/app_export.dart';
-import 'package:ipala/presentation/homepage_page/homepage_page.dart';
 import 'package:ipala/widgets/app_bar/appbar_image.dart';
 import 'package:ipala/widgets/app_bar/custom_app_bar.dart';
 import 'package:ipala/widgets/custom_bottom_bar.dart';
@@ -168,7 +167,7 @@ class NotificationScreen extends GetWidget<NotificationController> {
   String getCurrentRoute(BottomBarEnum type) {
     switch (type) {
       case BottomBarEnum.Home:
-        return AppRoutes.homepagePage;
+        return "/";
       case BottomBarEnum.Listing:
         return "/";
       case BottomBarEnum.Basket:
@@ -182,8 +181,6 @@ class NotificationScreen extends GetWidget<NotificationController> {
 
   Widget getCurrentPage(String currentRoute) {
     switch (currentRoute) {
-      case AppRoutes.homepagePage:
-        return HomepagePage();
       default:
         return DefaultWidget();
     }

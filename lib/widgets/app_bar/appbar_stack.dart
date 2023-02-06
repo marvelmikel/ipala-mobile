@@ -23,7 +23,7 @@ class AppbarStack extends StatelessWidget {
           margin: EdgeInsets.all(0),
           color: ColorConstant.gray100,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadiusStyle.roundedBorder2,
+            borderRadius: BorderRadiusStyle.roundedBorder4,
           ),
           child: Container(
             height: getVerticalSize(
@@ -39,7 +39,7 @@ class AppbarStack extends StatelessWidget {
               bottom: 1,
             ),
             decoration: AppDecoration.fillGray100.copyWith(
-              borderRadius: BorderRadiusStyle.roundedBorder2,
+              borderRadius: BorderRadiusStyle.roundedBorder4,
             ),
             child: Stack(
               children: [

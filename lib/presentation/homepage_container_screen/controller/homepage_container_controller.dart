@@ -15,7 +15,4 @@ class HomepageContainerController extends GetxController {
   void onClose() {
     super.onClose();
   }
-
-  @override
-  void onInit() {}
 }

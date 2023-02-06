@@ -77,8 +77,6 @@ class AppRoutes {
 
   static const String changePasswordScreen = '/change_password_screen';
 
-  static const String homepagePage = '/homepage_page';
-
   static const String homepageContainerScreen = '/homepage_container_screen';
 
   static const String storesScreen = '/stores_screen';
