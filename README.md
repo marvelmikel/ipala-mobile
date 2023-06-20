@@ -2,30 +2,13 @@
 # ipala
 
 <div>
-  <h1 align="center">Getting Started with Flutter 🚀 </h1>
-  <strong>
-    Generated with ❤️ from DhiWise
-  </strong>
+  <h1 align="center">Ipala Food Technology 🚀 </h1>
   <p>
-    This is the documentation of Flutter Applications.
-    It contains all the information you need to get started with
-    and make changes to your App
+    Get real-time  
+Updates of price of food items near you.
+Create your foodstuff shopping list in seconds with accurate prices. download and send anywhere.
   </p>
 </div>
-
-
-### Table of Contents
-- [System Requirements](#system-requirements)
-- [Figma design guidelines for better accuracy](#figma-design-guideline-for-better-accuracy)
-- [App Navigations](#app-navigations)
-- [Facebook Authentication Configuration](#facebook-authentication-configuration)
-- [Google Authentication Configuration](#google-authentication-configuration)
-- [Project Structure](#project-structure)
-- [How you can do code formatting?](#how-you-can-do-code-formatting)
-- [How you can improve the readability of code?](#how-you-can-improve-the-readability-of-code)
-- [Libraries and tools used](#libraries-and-tools-used)
-- [Support](#support)
-
 ### System Requirements
 
 Dart SDK Version 2.18.0 or greater.
@@ -109,4 +92,3 @@ Resolve the errors and warnings that are shown in the application.
     
 ### Support
 
-If you have problems or questions go to our Discord channel, we will then try to help you as quickly as possible: https://discord.com/invite/rFMnCG5MZ7
